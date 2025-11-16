@@ -1,0 +1,11 @@
+
+CREATE TABLE categorias (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  nome TEXT NOT NULL,
+  slug TEXT NOT NULL,
+  icone TEXT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_categorias_slug ON categorias(slug);

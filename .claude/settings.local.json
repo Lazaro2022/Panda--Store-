@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx wrangler d1 execute:*)",
+      "Bash(timeout /t 10)",
+      "Bash(nul)",
+      "Bash(exit 0)",
+      "Bash(npx playwright:*)",
+      "Bash(move \"test-footer-categories.js\" \"test-footer-categories.cjs\")",
+      "Bash(mv:*)",
+      "Bash(node test-footer-categories.cjs:*)",
+      "Bash(node test-footer-direct.cjs:*)",
+      "Bash(node test-footer-buttons.cjs:*)",
+      "Bash(node test-console-errors.cjs:*)",
+      "Bash(timeout /t 5)",
+      "Bash(node test-final.cjs:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

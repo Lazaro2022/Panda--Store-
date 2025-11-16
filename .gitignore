@@ -1,0 +1,14 @@
+dist/
+node_modules/
+.wrangler/
+.dev.vars
+worker-configuration.d.ts
+
+# Arquivos de teste
+test-*.cjs
+test-*.js
+test-*.png
+*.png
+
+# Arquivos temporários
+nul
